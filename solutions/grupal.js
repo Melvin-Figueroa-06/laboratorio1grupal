@@ -8,7 +8,7 @@ function sumar(valor)
         }
         module.exports = suma
     }
-// /////////// ------------------ ejercicio el dos
+// /////////// ------------------ ejercicio el dos Daniel
 
 function candies(n,m)
    {
@@ -30,7 +30,7 @@ function candies(n,m)
 
    }
    candies(3,10);
-   
+
 // /////////// ------------------ ejercicio el tres
 // /////////// ------------------ ejercicio el cuatro
 // /////////// ------------------ ejercicio el cinco
