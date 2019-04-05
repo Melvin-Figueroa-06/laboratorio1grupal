@@ -32,5 +32,20 @@ function candies(n,m)
    candies(3,10);
 
 // /////////// ------------------ ejercicio el tres
-// /////////// ------------------ ejercicio el cuatro
+// /////////// ------------------ ejercicio el cuatro gilda
+function palindromo (cadena){
+  t=cadena.length;
+  if(t==0){function palindromo (cadena){
+  t=cadena.length;
+  if(t==0){
+    return false;
+  }
+  for(i=0;i<t/2;i++){
+    if(cadena[i] != cadena[t-1-i]){
+			return false;
+  }
+}
+return true;
+}
+ console.log(palindromo("anitalavalatina") ); // regresar true
 // /////////// ------------------ ejercicio el cinco
