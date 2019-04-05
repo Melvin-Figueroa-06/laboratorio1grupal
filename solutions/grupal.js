@@ -31,7 +31,51 @@ function candies(n,m)
    }
    candies(3,10);
 
-// /////////// ------------------ ejercicio el tres
+// /////////// ------------------ ejercicio el tres MELVIN
+function inputArray(Calcular *obj)
+{
+    for (int i = 0; i < obj->getTamano(); i++)
+    {
+        document.write("Introduzca el numero de la posicion: " + i + "<br>");
+        consola.log = ' ' ;
+        document.write("Introduzca: " + dato + "<br>");
+        obj->setVector(i, dato);
+    }
+    system("cls");
+}
+function mostrar(Calcular *obj)
+{
+    consola.log = '[ ' ;
+    for (int i = 0; i < obj->getTamano(); i++)
+    {
+        if (i == obj->getTamano()-1)
+        {
+
+            console.log (obj->getVector(i) + ']' + "<br>");
+        }
+        else
+        {
+            console.log (obj->getVector(i) +  ',');
+        }
+    }
+}
+
+int main(void)
+{
+
+    Calcular *obj = new Calcular();
+
+    int tam;
+    console.log("Digite el tama"  (char) 164  "o del vector" "<br>");
+    console.log  ('');
+    consola . log (tam);
+    obj->setTamano(tam);
+    obj->crearVector();
+    llenar(obj);
+    mostrar(obj);
+
+}
+consola . log ("El producto es: " + obj->elementosAdyacentesProducto() "<br>");
 // /////////// ------------------ ejercicio el cuatro gilda
 function palindromo (cadena){
   t=cadena.length;
