@@ -60,7 +60,9 @@ function mostrar(Calcular *obj)
     }
 }
 
-int main(void)
+function cad() {
+
+}(cad)
 {
 
     Calcular *obj = new Calcular();
